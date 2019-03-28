@@ -1,0 +1,225 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+/*头部导航*/
+.head{
+	width: 100%;
+	height: 80px;
+	margin-top:40px;
+}
+.logo{
+	margin-left:50px ;
+	float: left;
+}
+.shouye{
+	float: left;
+}
+.shouye>ul>li{
+	margin: 20px;
+	float: left;
+	font-weight:700px;
+}
+li a:hover{
+	color: purple;
+   text-decoration: initial;
+   
+}
+a:link{
+	text-decoration: none;
+	color: dimgrey;
+}
+#traditional{
+	margin-left:1100px ;
+}
+/*头部导航结束*/
+/*轮播图开始*/
+.Shuffling{
+	width:100%;
+	height:372px;
+	background:#8b2e8c;
+	border: 1px solid navy;
+}
+.Shuffling img{
+	width:100%;
+	height:350px;
+}
+/*轮播图结束*/
+/*内容开始*/
+.Great-content{
+	width: 100%;
+	height: 286px;
+	margin-top: 80px;
+	border: 1px solid darkblue;
+}
+.content-left{
+	margin-left: 70px;
+	width:600px;
+	height:285px;
+	float: left;
+	border: 1px solid darkcyan;
+}
+.content-right{
+	margin-left: 70px;
+	width:520px;
+	height:285px;
+	float: left;
+	margin-left: 70px;
+	border: 1px solid darkgoldenrod;
+}
+.content-right h3{
+	margin-bottom:25px ;
+	font-weight:400 ;
+	color: #8b2e8c;
+}
+.content-right p{
+	text-align: justify;
+	font-size: 14px;
+	line-height: 22px;
+	color: dimgray;
+}
+.More-content{
+	font-size: 14px;
+	margin-top:20px;
+	width: 125px;
+	height:40px ;
+	border: 1px solid hotpink;
+}
+.More-content a:hover{
+	color: azure;
+}
+button:hover{
+	background-color:#8b2e8c;
+}
+/*内容结束*/
+/*产品中心开始*/
+.other{
+	width: 1342px;
+	height: 1040px;
+	text-align: center;
+}
+.container{
+	width: 1200px;
+	height: 1100px;
+	margin: 0px auto;
+	border: 1px solid darkcyan;
+}
+.mainTitle{
+	width: 295px;
+	height: 65px;
+	font-size:35px;
+	color:#666666 ;
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 160px;
+	padding-top:10px ;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+.child-product{
+	float: left;
+	width: 300px;
+	height: 440px;
+	margin-left: 75px;
+	margin-top: 75px;
+	border: 1px solid darkblue;
+}
+	
+.childImg{
+	text-align: center;
+	border: 1px solid firebrick;
+}
+
+.childTitle{
+	text-align: center;
+	padding-top: 11px;
+	margin-left:13px ;
+	font-size: 23px;
+	font-weight:500;
+	color: #666666;
+	width: 280px;
+	height: 45px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	
+}
+.childInfo{
+	width: 280px;
+	height: 40px;
+	font-size: 14px;
+	text-align: center;
+	color: darkgrey;
+	margin-top: 20px;
+	margin-left:10px;
+	border: 1px solid seagreen;
+}
+/*产品中心结束*/
+/*网页动态*/
+.news{
+	width: 100%;
+	height: 625px;
+	margin-top:150px;
+	border: 1px solid darkblue;
+}
+.main{
+	width: 295px;
+	height: 65px;
+	font-size:35px;
+	color:#666666 ;
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 50px;
+	padding-top:15px ;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+.containers{
+	width: 1290px;
+	height: 430px;
+	margin: 0px auto;
+	border: 1px solid darkcyan;
+}
+.child{
+	float: left;
+	width: 350px;
+	height: 400px;
+	margin-left: 60px;
+	margin-top: 75px;
+	border: 1px solid darkblue;
+}
+.Img{
+	width:345px ;
+	height: 230px;
+	/*float: left;
+	background: no-repeat;*/
+	text-align: center;
+	border: 1px solid firebrick;
+}
+.Title{
+	text-align: center;
+	overflow: hidden;
+	padding-top: 11px;
+	font-size: 20px;
+	font-weight:500;
+	color: #666666;
+	width: 330px;
+	height: 30px;
+	
+}
+.Time{
+	width: 280px;
+	height: 20px;
+	font-size: 14px;
+	color: darkgrey;
+	border: 1px solid seagreen;
+}
+.Info{
+	width: 350px;
+	height: 55px;
+	font-size: 14px;
+	text-align: center;
+	color: darkgrey;
+	border: 1px solid seagreen;
+}
+
